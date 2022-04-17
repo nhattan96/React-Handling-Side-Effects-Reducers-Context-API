@@ -19,6 +19,16 @@ const Login = (props) => {
   //   )
   // }, [setFormIsValid, enteredEmail, enteredPassword]);
 
+  useEffect(()=> {
+    console.log('Effect running!');
+
+    return () => {
+      console.log('Effect cleanup!');
+
+    }
+  },[enteredEmail])
+
+
   // Use bouncing
   useEffect(() => {
 

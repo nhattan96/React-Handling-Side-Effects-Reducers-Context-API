@@ -16,9 +16,6 @@ export const AuthContextProvider = (props) => {
           setIsLoggedIn(true)
         }
         
-        console.log('====================================');
-        console.log('sdada');
-        console.log('====================================');
       }, [])
 
 
